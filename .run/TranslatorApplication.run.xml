@@ -1,0 +1,24 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="TranslatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="Translator-Kiche" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.nosysask.esc.translator.TranslatorApplication" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateTriggerFile" />
+    <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+    <additionalParameters>
+      <param>
+        <option name="enabled" value="true" />
+        <option name="name" value="USERNAME" />
+        <option name="value" value="admin" />
+      </param>
+      <param>
+        <option name="enabled" value="true" />
+        <option name="name" value="PASSWORD" />
+        <option name="value" value="admin" />
+      </param>
+    </additionalParameters>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

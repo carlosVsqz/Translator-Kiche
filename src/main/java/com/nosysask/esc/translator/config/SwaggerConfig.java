@@ -16,7 +16,7 @@ public class SwaggerConfig {
 
 	@Bean
 	public Docket parkingLotApi() {
-		return new Docket(DocumentationType.SWAGGER_2).groupName("ParkingLot-api").apiInfo(apiInfo()).select()
+		return new Docket(DocumentationType.SWAGGER_2).groupName("Translator-api").apiInfo(apiInfo()).select()
 		.apis(RequestHandlerSelectors.basePackage(
 				"com.nosysask.esc.translator.controller"))
 		.build();
@@ -26,10 +26,10 @@ public class SwaggerConfig {
 		private ApiInfo apiInfo() {
 		return new ApiInfoBuilder().title("Translator Kiche API")
 				.description("Translator API reference for developers")
-				.termsOfServiceUrl("http://example.com")
-				.contact(new Contact("Translator kiche-es Application", "http://example.com",
-						"parkinglot@gmail.com")).license("Translator License")
-				.licenseUrl("parkinglot@gmail.com").version("1.0").build();
+				.termsOfServiceUrl("https://github.com/carlosVsqz/Translator-Kiche")
+				.contact(new Contact("Translator kiche-es Application", "",
+						"")).license("Translator License")
+				.licenseUrl("https://github.com/carlosVsqz/Translator-Kiche").version("1.0").build();
 	}
 
 }
